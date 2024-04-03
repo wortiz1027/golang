@@ -10,6 +10,7 @@ type Error struct {
 	code    ErrorCode
 	message string
 	origin  error
+	code    string
 }
 
 const (
